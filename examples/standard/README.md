@@ -9,7 +9,7 @@ module "rg" {
 
 
 module "adf" {
-  source = "../../"
+  source = "cyber-scot/data-factory/azurerm"
 
   rg_name  = module.rg.rg_name
   location = module.rg.rg_location
@@ -29,15 +29,15 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | n/a |
-| <a name="provider_external"></a> [external](#provider\_external) | n/a |
-| <a name="provider_http"></a> [http](#provider\_http) | n/a |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 3.87.0 |
+| <a name="provider_external"></a> [external](#provider\_external) | 2.3.2 |
+| <a name="provider_http"></a> [http](#provider\_http) | 3.4.1 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_adf"></a> [adf](#module\_adf) | ../../ | n/a |
+| <a name="module_adf"></a> [adf](#module\_adf) | cyber-scot/data-factory/azurerm | n/a |
 | <a name="module_rg"></a> [rg](#module\_rg) | cyber-scot/rg/azurerm | n/a |
 
 ## Resources
